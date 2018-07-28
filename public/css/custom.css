@@ -1,0 +1,39 @@
+
+.sidebar{
+    width: 15%;
+    min-width: 250px;
+    height: 100%;
+    background: #2f4050;
+    float: left;
+}
+
+.sidebar>.header{
+    background: #293846;
+    height: auto;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar>.main{
+    color: white;
+}
+
+.content{
+    background-color: #f3f3f4;
+    color: #888888;
+    margin-left: 16%;
+    height: 100%;
+}
+
+.navbar{
+    padding: 1em;
+}
+
+.headline{
+    padding: 1em;
+    background-color: white;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+}
