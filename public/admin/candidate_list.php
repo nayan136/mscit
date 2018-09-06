@@ -41,7 +41,7 @@
                 ?>
                         <tr>
                             <td><?php echo $i; ?></td>
-                            <td><?php echo $candidate["user_name"]; ?></td>
+                            <td><a href="user_details?user_id<?php echo $candidate["id"]; ?>"><?php echo $candidate["user_name"]; ?></a></td>
                             <td><?php echo $candidate["email"]; ?></td>
                             <td><?php echo $candidate["user_address"].", ".$candidate["user_city"].", ".$candidate["user_state"]; ?></td>
                         </tr>

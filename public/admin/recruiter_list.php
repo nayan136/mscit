@@ -40,7 +40,7 @@
                     ?>
                     <tr>
                         <td><?php echo ++$k; ?></td>
-                        <td><?php echo $recruiter["user_name"]; ?></td>
+                        <td><a href="user_details.php?user_id=<?php echo $recruiter["id"]; ?>"><?php echo $recruiter["user_name"]; ?></a></td>
                         <td><?php echo $recruiter["email"]; ?></td>
                         <td><?php echo $recruiter["user_address"].", ".$recruiter["user_city"].", ".$recruiter["user_state"]; ?></td>
                     </tr>

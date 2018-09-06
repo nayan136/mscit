@@ -34,4 +34,8 @@ class Company extends Model
         return $data;
     }
 
+    public function companyName($companyId){
+        return parent::select()->where("id",$companyId)->get();
+    }
+
 }
